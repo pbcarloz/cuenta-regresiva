@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 1.5rem;
+}
+
+.coming-soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    margin: 1.5rem;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.day, .hour, .minute, .second {
+    font-size: 1.5rem;
+}
+
+.bottom-img {
+    height: 40vh;
+}
+
+.mensaje {
+    padding: 2rem;
+}
+
+a {
+    padding-top: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 2rem;
+    }
+    h3{
+        font-size: 1rem;
+      }
+  }
