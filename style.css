@@ -35,7 +35,7 @@ h1 {
 
 .countdown {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
 }
 .day, .hour, .minute, .second {
@@ -69,4 +69,9 @@ a {
         height: auto;
         width: 2.3rem;
     }
+
+    .mensaje {
+        text-align: center;
+    }
+    
   }
