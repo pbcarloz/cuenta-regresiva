@@ -58,9 +58,15 @@ a {
 
 @media only screen and (max-width: 600px) {
     h1 {
-      font-size: 2rem;
+      font-size: 1.6rem;
     }
     h3{
         font-size: 1rem;
       }
+
+      .banner img {
+        margin: .2rem;
+        height: auto;
+        width: 2.3rem;
+    }
   }
