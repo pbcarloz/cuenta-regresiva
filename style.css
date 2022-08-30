@@ -44,12 +44,17 @@ h1 {
 
 .bottom-img {
     height: 40vh;
+    margin-top: 15px;
 }
 
 .mensaje {
-    padding: 2rem;
+    padding: 1rem;
 }
 
+.container-koseki {
+    display: block;
+    text-align: center;
+}
 a {
     padding-top: 2rem;
     text-decoration: none;
