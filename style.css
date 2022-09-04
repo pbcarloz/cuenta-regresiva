@@ -38,8 +38,8 @@ h1 {
     justify-content: space-around;
     text-align: center;
 }
-.day, .hour, .minute, .second {
-    font-size: 1.5rem;
+.month .day, .hour, .minute, .second{
+    font-size: 1rem;
 }
 
 .bottom-img {
