@@ -1,5 +1,5 @@
 const countDown = () => {
-    const countDate = new Date ('November 01, 2022 00:00:00').getTime();
+    const countDate = new Date ('December 01, 2022 00:00:00').getTime();
     const countKoseki = new Date ('October 12, 2022 00:00:00').getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
